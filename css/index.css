@@ -1,0 +1,135 @@
+/*
+    GENERAL STYLING
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #a9a189;
+}
+
+body {
+    background: url(/assets/print.png) top center / 1024px 1024px no-repeat, -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(20,20,20,1) 100%); /* FF3.6-15 */
+	background: url(/assets/print.png) top center / 1024px 1024px no-repeat, -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(20,20,20,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: url(/assets/print.png) top center / 1024px 1024px no-repeat, radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(20,20,20,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#141414',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: #181a1b;
+    background-attachment: fixed;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+    NAVIGATION BAR STYLING
+*/
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.navItem {
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.navItem:hover {
+    background-color: #a9a189;
+    color: #181a1b;
+}
+
+/*
+    LOGO STYLING
+*/
+
+.agencyLogo {
+    margin: 60px 0px 100px 0px;
+    text-align: center;
+}
+
+.agencyLogo img {
+    width: 60%;
+    height: auto;
+}
+
+/*
+    TAGLINE STYLING
+*/
+
+.tagLine {
+    font-weight: bold;
+    font-size: 250%;
+}
+
+/*
+    FINANCIER STYLING
+*/
+
+.financierSection {
+    margin: 100px 50px 50px 50px;
+}
+
+.financierSection hr{
+    margin: 30px 0px 15px 0px;
+}
+
+.financierTitle {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.financier {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.giphy-embed {
+    flex: 1;
+}
+
+.financierDesc {
+    flex: 1;
+}
+
+.financierDesc #name {
+    font-weight: bold;
+    font-size: 120%;
+    padding: 20px 0px;
+}
+
+.financierDesc #description {
+    font-weight: normal;
+    font-size: 100%;
+    padding: 10px 0px 20px 0px;
+}
+
+.financierDesc img {
+    max-width: 30%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+/*
+    FOOTER STYLING
+*/
+
+footer {
+    background-color: #5e4ae3;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+footer p {
+    color: #000000;
+}
